@@ -1,0 +1,104 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin: 0 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.primary-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  margin-left: 40px;
+  margin-right: 80px;
+  padding: 12px 24px;
+  background: linear-gradient(
+    89.64deg,
+    #746bdb -7.92%,
+    #8359e3 95.42%,
+    #8a52e7 151.95%
+  );
+  color: white;
+}
+
+.logo {
+  margin-left: 86px;
+}
+
+.purple-write {
+  color: #8359e3;
+}
+
+.main-write {
+  width: 522.39px;
+  left: 80px;
+  top: 206px;
+  font-size: 35px;
+  letter-spacing: 0.015em;
+  color: #000000;
+  position: absolute;
+}
+
+.text {
+  position: absolute;
+  width: 410.37px;
+  height: 87px;
+  left: 80px;
+  top: 542px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.last-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-left: 30px;
+}
+
+.button2 {
+  padding: 12px 24px;
+  margin: 580px 40px;
+  background: linear-gradient(
+    89.64deg,
+    #746bdb -7.92%,
+    #8359e3 95.42%,
+    #8a52e7 151.95%
+  );
+  color: white;
+}
+
+.last-button > img {
+  margin-right: 10px;
+}
+
+.main-image {
+  position: absolute;
+  right: 80px;
+  top: 206px;
+}
